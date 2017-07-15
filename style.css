@@ -23,8 +23,15 @@ header {
   width: 360px;
   height: 360px;
   max-width: 70%;
+  max-height: 70%;
   box-sizing: border-box;
   transition: transform 0.3s;
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    height: 240px;
+  }
 }
 
 
