@@ -20,7 +20,7 @@
   var photos = document.querySelectorAll('.photos figure');
 
   function newRotate(){
-    return Math.floor(Math.random() * 15) - 10;
+    return Math.floor(Math.random() * 10) - 5;
   }
 
   function photoMouseEnter(event) {
